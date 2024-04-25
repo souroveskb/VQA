@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "visual-question-answering"
+version = "0.1.0"
+description = ""
+authors = ["Sourove <souroveskb@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "visual_question_answering"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pillow = "^10.3.0"
+python-dotenv = "^1.0.1"
+ipython = "^8.23.0"
+openai = "^1.23.2"
+
+[tool.poetry.group.dev.dependencies]
+google-generativeai = "^0.4.1"
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
