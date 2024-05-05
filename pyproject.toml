@@ -6,6 +6,7 @@ authors = ["Sourove <souroveskb@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 packages = [{include = "visual_question_answering"}]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -16,6 +17,7 @@ openai = "^1.23.2"
 torch = "^2.3.0"
 transformers = "^4.40.1"
 normalizer = {git = "https://github.com/csebuetnlp/normalizer"}
+pandas = "^2.2.2"
 
 [tool.poetry.group.dev.dependencies]
 google-generativeai = "^0.4.1"
