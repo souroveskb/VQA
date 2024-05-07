@@ -3,5 +3,3 @@
 dataset/
 
 .venv/
-
-poetry.lock

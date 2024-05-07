@@ -6,7 +6,7 @@ authors = ["Sourove <souroveskb@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 packages = [{include = "visual_question_answering"}]
-# package-mode = false
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.10"
